@@ -1,0 +1,52 @@
+.card {
+  position: relative;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #242424;
+  background-color: #f1f1f1;
+  box-shadow: #515050 0px 8px 24px;
+  transition: all 0.2s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card p {
+  font-weight: 500;
+  margin: 0;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card:active {
+  transform: scale(1);
+}
+
+.buttons button {
+  transition: all 0.2s;
+}
+
+.buttons button:active {
+  transform: scale(0.9);
+}
+
+.buttons {
+  align-self: flex-end;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  align-items: end;
+  justify-content: end;
+  font-size: 1.1rem;
+}
+.delete {
+  color: #ff0303;
+}
+.update {
+  color: greenyellow;
+}
