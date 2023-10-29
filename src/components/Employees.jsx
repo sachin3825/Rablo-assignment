@@ -28,7 +28,7 @@ const Employees = () => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       {selectedEmployees.length > 0 && (
         <div className={styles["button-container"]}>
           <button onClick={handleClearSelected}>Clear Selected</button>
